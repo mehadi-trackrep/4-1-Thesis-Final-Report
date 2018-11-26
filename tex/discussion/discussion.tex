@@ -1,0 +1,15 @@
+\documentclass{standalone}
+\usepackage{standalone}
+
+\begin{document}
+\chapter{Challenges}
+
+When we run Kaldi we faced some challenges like environment setup problem and to modify DNN-HMM model in Kaldi.
+
+    \section{Environment setup}
+Kaldi run in python version 2.7 so we had to create the virtual environment of python version 2.7 but at first, we didn't get the solution after trying some days. Here the main problem was the job failed on the job.pl file in Kaldi. This problem occurs in python version 2.7 where we attempted to python version 3.6.
+
+    \section{Building DNN-HMM model}
+ Choosing the appropriate run. the sh file is the main concern here. We need to debug those scripting codes to build the model as our need.  We need to generate a graph by running make graph script from step folder of Kaldi. There was the main problem to choose the number of hidden layers in the model.\\
+    
+\end{document}

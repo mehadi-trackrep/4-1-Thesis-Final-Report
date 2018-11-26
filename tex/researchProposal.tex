@@ -1,0 +1,56 @@
+\documentclass{standalone}
+\usepackage{standalone}
+
+\begin{document}
+\chapter{Research Proposal}
+In Chapter \ref{chap:chatbot}, we have identified several security and privacy issues involving a chatbot system. Many of these can effectively tackled by developing a chatbot rooted on a blockchain system. A blockchain system is decentralized in nature offering a secure transaction and time-stamping recording mechanism. Moreover, a smart-contract empowered blockchain system offers the opportunity to deploy complex and immutable logic within a blockchain. In this research, we aim to explore how such a smart-contract enabled blockchain system can be integrated with a chatbot and investigate the advantage it offers. 
+
+Towards this aim, we have studied different public and private blockchain systems. We have found that public blockchain systems are comparatively more secure than any private blockchain system as the number of participating nodes in these systems are significantly larger than their counterpart. This makes such systems more resilient against any attack. However, public blockchain systems are open to all as anybody can participate which are not appropriate for any systems that handles sensitive information. Furthermore, public blockchain systems are extremely slow in nature, for example, Bitcoin can process only 7 transactions per second. Additionally, it requires significant amount of cost to process and store data in a smart-contract supported public blockchain (e.g. Ethereum). Because of these reasons, we have chosen to work with a private blockchain system. Currently, Hyperledger Fabric is the most stable and popular private blockchain platform supporting smart-contract facility. That this why we have selected to use Hyperledger Fabric as our preferred blockchain system for this research.
+
+Next, we present the steps that have been and will be followed within this research.
+
+% Study and analyzing of a secure transactional chatbot using block chain. For developing a secure transaction system with chatbot and block chain, in our research we are dealing with the following situations .
+
+
+{\textbf{Step 1: Blockchain familiarity.}} The primary goals of this step are:
+	\begin{itemize}
+		\item To understand a blockchain system along with its fundamental properties, architecture, design, and the protocols for generating blocks. 
+        \item To study the Hyperledger fabric via its documentation.
+	\end{itemize}
+
+{\textbf{Step 2: Chatbot familiarity.}} The goals of this step are:
+
+\begin{itemize}
+	\item Understanding chatbot systems and analyzing their applications.
+    \item Investigating security and privacy issues of a chatbot system with a focus on a user's perspective.
+    \item Briefly discussing and Simultaneously considering some probable solutions against those security and privacy issues.
+    \item Exploring popular chatbots in recent time with their security features.
+\end{itemize}
+ 
+{\textbf{Step 3: Designing architecture with chatbot and blockchain.}} The mail goal of this steps is to design an architecture to integrate a chatbot with Hyperledger Fabric. For this, the following steps will be carried out.
+\begin{itemize}
+\item \textbf{System familiarization} In this step, we will familiarize ourselves with the following technologies which are essential to develop a chatbot rooted in Hyperledger Fabric. 
+  \begin{itemize}
+    \item Ubuntu
+    \item Hyperledger fabric
+    \item Node.js
+    \item Docker
+    \item Go Language
+  \end{itemize}
+ \item  \textbf{Security and privacy requirements:} In this step, a few security and privacy requirements will be formulated. Then some protocols will be developed to ensure those requirements are satisfied.
+\end{itemize}
+
+{\textbf{Step 4: System develop and deploy.}} In this step, the system will be developed with the designed architecture and deployed in a practical setting. 
+
+{\textbf{Step 5: Performance Analysis.}} In this step, the performance and the usability of the deployed system will be carried out.
+
+Till now, we have already completed Step 1, 2 and a fraction of Step 3. In the next semester, we will pursue the rest of the steps. Our research progress till now and the estimated timeline to complete is presented in Figure \ref{fig:gantt}. 
+\begin{figure}[h]
+\includegraphics[scale=.6]{img/gantt_chart.pdf}
+
+\caption{Gantt chart of research}
+\label{fig:gantt}
+\end{figure}
+%We want to create a chatbot for financial transaction with the help of blockchain. The database of the chatbot will be connected with the blockchain database. Chatbot will be their intermediary for creating a smart contract. After creating a smart contract, and with the protocol of consensus the smart contract will be to the blockchain. Several protocols will be set to the chatbot , The main purpose of the research will be " To generate a secure transactional process "
+
+\end{document}

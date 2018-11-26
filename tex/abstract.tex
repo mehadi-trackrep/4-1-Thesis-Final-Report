@@ -1,0 +1,15 @@
+\documentclass{standalone}
+\usepackage{standalone}
+
+\begin{document}
+\chapter*{Abstract}
+This thesis is about the automatic speech recognition system for implementation with the popular Bangla search engine "Pipilika". This automatic speech recognition system is developed using Kaldi, a good and useful speech recognition toolkit. Our corpus contains 9324 utterances of 1035 Bangla unique words from 91 different speakers. For building a speech recognizer in Bangla language we used neural net2 that is Triphone DNN-HMM with P-norm model in Kaldi. DNN-HMM is used to large-vocabulary speech recognition that leverages recent advances in using deep belief networks for phone recognition. Previously non-standard Bangla phonetic system and GMM-HMM model were used in Kaldi where unique isolated words in the dataset were 500. We have used B-ToBI model of Bengali intonation that is phonological model and annotation system and it is also standard for Bangla in Kaldi environment for building lexicon that is proposed by Sameer ud Dowla Khan. We have used this new model and get the result from DNN-HMM approach after training with the utterances of 1035 unique words and get improved WER (word error rate) like 5.24\% .
+We have also used the GMM-HMM models whose WERs were between 6\% to 15\% in different scenarios.
+ 
+
+%\clearpage
+\paragraph*{Keywords:}  Speech Recognition, Voice Recognition in Bangla, Speech to Text in Bangla
+Language, Pipilika Voice Search, Bangla Speech Corpus, Feature Extraction from an Acoustic
+Signal, Kaldi, Kaldi for Bangla language. Monophone GMM-HMM, Triphone DNN-HMM with P-norm, B-ToBI. 
+
+\end{document}
